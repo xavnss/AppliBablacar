@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: trajet-facile
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrateur
+Implementation-Vendor-Id: com.poe
+Build-Jdk: 1.8.0_162
+Implementation-URL: http://projects.spring.io/spring-boot/trajet-facil
+ e/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
