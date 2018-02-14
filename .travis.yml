@@ -3,7 +3,7 @@ jdk:
 # would just use default install/script but the ./mvnw script errors on travis
 # obviously this only works for maven builds right now...
 install:
-- mvn sonar:sonar -Dsonar.organization=xavnss-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=686616d9ac5b5a561f9aac16db7e183cdb08d976
+- mvn clean compile sonar:sonar -Dsonar.organization=xavnss-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=686616d9ac5b5a561f9aac16db7e183cdb08d976
 
 script:
 - mvn test
